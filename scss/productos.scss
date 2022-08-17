@@ -1,0 +1,43 @@
+header{
+    .logo{
+        width: 25%;
+        float: left;
+    }
+    .color_index{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: bolder;   
+    }
+}
+main{
+    .seccion{
+        color:$negro ;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center; 
+    }
+    .color_prod{
+        background-image: url(../images/fondo5.jpg);
+    }
+    .padding{
+        padding: 2%;
+        color: $negro;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+    }
+
+}
+footer{
+    background-color: $blanco;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+.final{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px; 
+    font-weight: bolder;    
+}      
+}

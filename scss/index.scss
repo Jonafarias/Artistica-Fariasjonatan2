@@ -1,0 +1,49 @@
+header{
+    .logo{
+        width: 25%;
+        float: left;
+    }
+    .color_index{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: bolder;   
+    }
+}
+main{
+    .video{
+        position:fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: -1;
+        -webkit-filter:opacity(100%)   
+    }
+    .descripcion{
+        color: $negro;
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: justify;    
+        width: 70%;
+        padding: 10%;
+        background-image: url(../images/fondo5.jpg);
+        background-repeat: no-repeat;
+        margin: 50px auto;
+        min-height: 100vh;
+    }
+}
+.footer{
+    background-color: $blanco;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+.final{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px; 
+    font-weight: bolder;    
+}      
+}
