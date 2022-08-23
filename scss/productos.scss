@@ -3,41 +3,59 @@ header{
         width: 25%;
         float: left;
     }
-    .color_index{
+      
+    .color_fondo{
+        background-color:rgb(228, 204, 222);
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
-        font-weight: bolder;   
+        font-weight: bolder;
     }
 }
 main{
     .seccion{
         color:$negro ;
-        font-family: 'Lato', sans-serif;
-        font-weight: bolder;
+        font-family: 'Noto Serif', serif;     
         font-size: 20px;
-        text-align: center; 
+        text-align:center; 
+        margin-top: 30px;        
     }
-    .color_prod{
-        background-image: url(../images/fondo5.jpg);
+  
+    .color_prod{  
+        width: 50%;  
+        height: 40%;    
+        padding-right: 4%;
+        padding-top: 5%;
+        padding-bottom: 0%;
+        width: 600px;
+        height: 800px;
+       
+        
     }
     .padding{
-        padding: 2%;
-        color: $negro;
-        font-family: 'Lato', sans-serif;
+        padding: 1em 3px 30px 5px;
+        color:black;
+        font-family: 'Aboreto', cursive;
         font-weight: bolder;
+        background-color: aliceblue;
+        text-align: center;
+       
+       
+       
     }
-
+   
+    
 }
 footer{
-    background-color: $blanco;
-    display: flex;
+    background-color:rgb(228, 204, 222);
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: auto;
+    padding-top: 30px;
 .final{
     font-family: 'Dancing Script', cursive;
     font-size: 20px; 
     font-weight: bolder;    
+    background-color:rgb(228, 204, 222);
 }      
 }

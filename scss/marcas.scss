@@ -1,0 +1,27 @@
+.header{
+    .logo{
+        width: 25%;
+        float: left;
+    }
+    .color_fondo{
+        background-color:rgb(228, 204, 222);
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: bolder; 
+    }
+}
+main{
+    .colu_marcas{
+        padding-top: 5%;
+    }
+    .marc{
+        background-color:rgb(228, 204, 222);
+        color: black;
+        text-align: center;
+    }
+    .img_marcas{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}

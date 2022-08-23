@@ -1,0 +1,48 @@
+.header{
+    .logo{
+        width: 25%;
+        float: left;
+    }
+    .color_fondo{
+        background-color:rgb(228, 204, 222);
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: bolder; 
+    }
+}
+main{
+    .seccion{
+        color:$negro ;
+        font-family: 'Noto Serif', serif;      
+        font-size: 20px;
+        text-align:center; 
+        margin-top: 30px;         
+    }
+    .carru_taller{
+        display: block; 
+        text-align: center;     
+        margin:auto;
+        width: 700px;
+        height: 700px;
+        min-height: 100vh;
+      
+    }
+    
+    }
+    .footer{
+        background-color:rgb(228, 204, 222);
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    .final{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px; 
+        font-weight: bolder;    
+    }      
+    }    
+
+
+    

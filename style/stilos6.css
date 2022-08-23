@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka+One&family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ab1oreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap");
 header .logo {
   width: 25%;
   float: left; }
@@ -5,7 +11,8 @@ header .logo {
 header .color_index {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  text-align: center; }
 
 main .video {
   position: fixed;
@@ -19,19 +26,17 @@ main .video {
 
 main .descripcion {
   color: #0e0b0d;
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-  text-align: justify;
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  text-align: left;
   width: 70%;
-  padding: 10%;
-  background-image: url(../images/fondo5.jpg);
+  padding: 4%;
+  background-color: aliceblue;
   background-repeat: no-repeat;
-  margin: 50px auto;
-  min-height: 100vh; }
+  margin: 1em auto; }
 
 .footer {
-  background-color: white;
+  background-color: #e4ccde;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,35 +51,150 @@ header .logo {
   width: 25%;
   float: left; }
 
-header .color_index {
+header .color_fondo {
+  background-color: #e4ccde;
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   font-weight: bolder; }
 
 main .seccion {
   color: #0e0b0d;
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
+  font-family: 'Noto Serif', serif;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 main .color_prod {
-  background-image: url(../images/fondo5.jpg); }
+  width: 50%;
+  height: 40%;
+  padding-right: 4%;
+  padding-top: 5%;
+  padding-bottom: 0%;
+  width: 600px;
+  height: 800px; }
 
 main .padding {
-  padding: 2%;
-  color: #0e0b0d;
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder; }
+  padding: 1em 3px 30px 5px;
+  color: black;
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+  background-color: aliceblue;
+  text-align: center; }
 
 footer {
-  background-color: white;
+  background-color: #e4ccde;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px; }
+  footer .final {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #e4ccde; }
+
+.header .logo {
+  width: 25%;
+  float: left; }
+
+.header .color_fondo {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder; }
+
+main .seccion {
+  color: #0e0b0d;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px; }
+
+main .carru_taller {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 700px;
+  height: 700px;
+  min-height: 100vh; }
+
+.footer {
+  background-color: #e4ccde;
+  flex-direction: column;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin: auto; }
-  footer .final {
+  .footer .final {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     font-weight: bolder; }
+
+.header .logo {
+  width: 25%;
+  float: left; }
+
+.header .color_fondo {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder; }
+
+main .colu_marcas {
+  padding-top: 5%; }
+
+main .marc {
+  background-color: #e4ccde;
+  color: black;
+  text-align: center; }
+
+main .img_marcas {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+header .logo {
+  width: 25%;
+  float: left; }
+
+header .color_fondo {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  animation: bounce;
+  animation-duration: 2s; }
+
+main h1, main h2, main h3 {
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Aboreto', cursive;
+  font-size: 20px; }
+
+main table {
+  background-color: #e4ccde; }
+
+main .fin {
+  font-family: 'Aboreto', cursive;
+  text-align: center; }
+
+main .google {
+  display: block;
+  margin: auto; }
+
+footer {
+  background-color: #e4ccde;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  animation: bounce;
+  animation-duration: 2s; }
+  footer .final {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #e4ccde; }

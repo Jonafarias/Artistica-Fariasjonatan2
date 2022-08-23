@@ -1,0 +1,50 @@
+header{
+    .logo{
+        width: 25%;
+        float: left;  
+    }
+    .color_fondo{
+        background-color:rgb(228, 204, 222);
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: bolder;
+        animation: bounce; 
+        animation-duration: 2s;
+    }    
+    }
+main {
+    h1,h2,h3 {
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Aboreto', cursive;
+        font-size: 20px;
+
+    }
+    table{
+        background-color: rgb(228, 204, 222);
+    }    
+    .fin{
+        font-family: 'Aboreto', cursive;
+        text-align: center;
+    }    
+    .google{
+        display: block;
+        margin: auto;
+    }
+}
+footer{
+    background-color:rgb(228, 204, 222);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    animation: bounce; 
+    animation-duration: 2s;
+.final{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px; 
+    font-weight: bolder;    
+    background-color:rgb(228, 204, 222);
+}      
+}
