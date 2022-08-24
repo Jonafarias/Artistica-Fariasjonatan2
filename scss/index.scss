@@ -6,9 +6,15 @@ header{
     }
     .color_index{
         font-family: 'Dancing Script', cursive;
-        font-size: 20px;
-        font-weight: bolder;  
+        font-size: map-get($estilos, tfuente);
+        font-weight: map-get($estilos, tfuente_1);  
         text-align: center; 
+    }
+    .color_fondo{
+        background-color: map-get($estilos, color_1);
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        font-weight: map-get($estilos, tfuente_1);
     }
 }
 
@@ -30,14 +36,14 @@ main{
         text-align:left;    
         width: 70%;
         padding: 4%;
-        background-color: aliceblue;
+        background-color: $alice;
         background-repeat: no-repeat;
         margin: 1em auto;
        
     }
 }
 .footer{
-    background-color:rgb(228, 204, 222);
+    background-color: map-get($estilos, color_1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +51,7 @@ main{
     margin: auto;
 .final{
     font-family: 'Dancing Script', cursive;
-    font-size: 20px; 
-    font-weight: bolder;    
+    font-size: map-get($estilos, tfuente);
+    font-weight:  map-get($estilos, tfuente_1);    
 }      
 }

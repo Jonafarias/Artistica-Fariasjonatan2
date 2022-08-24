@@ -4,7 +4,7 @@
         float: left;
     }
     .color_fondo{
-        background-color:rgb(228, 204, 222);
+        background-color:$lila;
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
         font-weight: bolder; 
@@ -30,7 +30,7 @@ main{
     
     }
     .footer{
-        background-color:rgb(228, 204, 222);
+        background-color: $lila;
         flex-direction: column;
         display: flex;
         flex-direction: column;

@@ -4,19 +4,25 @@
         float: left;
     }
     .color_fondo{
-        background-color:rgb(228, 204, 222);
+        background-color: $lila;
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
         font-weight: bolder; 
     }
 }
 main{
+    h1{
+        text-align: center;
+        margin-top: 2%;
+        font-family: 'Aboreto', cursive;
+        font-size: 20px;
+    }
     .colu_marcas{
         padding-top: 5%;
     }
     .marc{
-        background-color:rgb(228, 204, 222);
-        color: black;
+        background-color: $lila;
+        color: $negro;
         text-align: center;
     }
     .img_marcas{

@@ -4,7 +4,7 @@ header{
         float: left;  
     }
     .color_fondo{
-        background-color:rgb(228, 204, 222);
+        background-color:$lila;
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
         font-weight: bolder;
@@ -13,15 +13,15 @@ header{
     }    
     }
 main {
-    h1,h2,h3 {
+    .h1,h2,h3{
         text-align: center;
         margin-top: 2%;
         font-family: 'Aboreto', cursive;
         font-size: 20px;
-
     }
-    table{
-        background-color: rgb(228, 204, 222);
+   
+    .table{
+        background-color:$lila;
     }    
     .fin{
         font-family: 'Aboreto', cursive;
@@ -33,7 +33,7 @@ main {
     }
 }
 footer{
-    background-color:rgb(228, 204, 222);
+    background-color:$lila;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -45,6 +45,6 @@ footer{
     font-family: 'Dancing Script', cursive;
     font-size: 20px; 
     font-weight: bolder;    
-    background-color:rgb(228, 204, 222);
+    background-color:$lila;
 }      
 }

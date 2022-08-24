@@ -14,6 +14,12 @@ header .color_index {
   font-weight: bolder;
   text-align: center; }
 
+header .color_fondo {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder; }
+
 main .video {
   position: fixed;
   min-width: 100%;
@@ -75,7 +81,7 @@ main .color_prod {
 
 main .padding {
   padding: 1em 3px 30px 5px;
-  color: black;
+  color: #0e0b0d;
   font-family: 'Aboreto', cursive;
   font-weight: bolder;
   background-color: aliceblue;
@@ -142,12 +148,18 @@ main .carru_taller {
   font-size: 20px;
   font-weight: bolder; }
 
+main h1 {
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Aboreto', cursive;
+  font-size: 20px; }
+
 main .colu_marcas {
   padding-top: 5%; }
 
 main .marc {
   background-color: #e4ccde;
-  color: black;
+  color: #0e0b0d;
   text-align: center; }
 
 main .img_marcas {
@@ -167,13 +179,13 @@ header .color_fondo {
   animation: bounce;
   animation-duration: 2s; }
 
-main h1, main h2, main h3 {
+main .h1, main h2, main h3 {
   text-align: center;
   margin-top: 2%;
   font-family: 'Aboreto', cursive;
   font-size: 20px; }
 
-main table {
+main .table {
   background-color: #e4ccde; }
 
 main .fin {
