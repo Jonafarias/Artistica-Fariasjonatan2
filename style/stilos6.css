@@ -75,9 +75,7 @@ main .color_prod {
   height: 40%;
   padding-right: 4%;
   padding-top: 5%;
-  padding-bottom: 0%;
-  width: 600px;
-  height: 800px; }
+  padding-bottom: 0%; }
 
 main .padding {
   padding: 1em 3px 30px 5px;
@@ -178,7 +176,8 @@ header .color_fondo {
   font-size: 20px;
   font-weight: bolder;
   animation: bounce;
-  animation-duration: 2s; }
+  animation-duration: 2s;
+  width: auto; }
 
 main .h1, main h2, main h3 {
   text-align: center;
@@ -187,7 +186,9 @@ main .h1, main h2, main h3 {
   font-size: 20px; }
 
 main .table {
-  background-color: #e4ccde; }
+  background-color: #e4ccde;
+  margin-left: -2%;
+  width: 100%; }
 
 main .fin {
   font-family: 'Aboreto', cursive;
@@ -198,6 +199,7 @@ main .google {
   margin: auto; }
 
 footer {
+  width: 100%;
   background-color: #e4ccde;
   flex-direction: column;
   justify-content: center;
@@ -210,4 +212,5 @@ footer {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     font-weight: bolder;
-    background-color: #e4ccde; }
+    background-color: #e4ccde;
+    width: 100%; }

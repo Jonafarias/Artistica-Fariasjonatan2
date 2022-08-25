@@ -10,6 +10,7 @@ header{
         font-weight: bolder;
         animation: bounce; 
         animation-duration: 2s;
+        width: auto;
     }    
     }
 main {
@@ -22,7 +23,10 @@ main {
    
     .table{
         background-color:$lila;
-    }    
+        margin-left: -2%;
+        width: 100%;
+       
+        }    
     .fin{
         font-family: 'Aboreto', cursive;
         text-align: center;
@@ -33,6 +37,7 @@ main {
     }
 }
 footer{
+    width: 100%;
     background-color:$lila;
     flex-direction: column;
     justify-content: center;
@@ -46,5 +51,6 @@ footer{
     font-size: 20px; 
     font-weight: bolder;    
     background-color:$lila;
+    width: 100%;
 }      
 }
