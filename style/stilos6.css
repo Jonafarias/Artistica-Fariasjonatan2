@@ -176,8 +176,7 @@ header .color_fondo {
   font-size: 20px;
   font-weight: bolder;
   animation: bounce;
-  animation-duration: 2s;
-  width: auto; }
+  animation-duration: 2s; }
 
 main .h1, main h2, main h3 {
   text-align: center;
