@@ -112,6 +112,7 @@ main .seccion {
   color: #0e0b0d;
   font-family: 'Noto Serif', serif;
   font-size: 20px;
+  font-weight: bolder;
   text-align: center;
   margin-top: 30px; }
 
@@ -122,7 +123,9 @@ main .carru_taller {
   display: block;
   text-align: center;
   margin: auto;
-  min-height: 300px; }
+  min-height: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 .footer {
   background-color: #e4ccde;
@@ -154,7 +157,8 @@ main h1 {
   font-size: 20px; }
 
 main .colu_marcas {
-  padding-top: 5%; }
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 main .marc {
   background-color: #e4ccde;
@@ -164,7 +168,22 @@ main .marc {
 main .img_marcas {
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  background-image: url(../images/fondo4.jpg); }
+
+footer {
+  width: 100%;
+  background-color: #e4ccde;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
+  footer .final {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #e4ccde;
+    width: 100%; }
 
 header .logo {
   width: 25%;
@@ -185,8 +204,7 @@ main .h1, main h2, main h3 {
   font-size: 20px; }
 
 main .table {
-  background-color: #e4ccde;
-  margin-left: -2%; }
+  background-color: #e4ccde; }
 
 main .fin {
   font-family: 'Aboreto', cursive;
@@ -194,7 +212,8 @@ main .fin {
 
 main .google {
   display: block;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 4%; }
 
 footer {
   width: 100%;

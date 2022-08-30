@@ -1,4 +1,5 @@
 header{
+   
     .logo{
         width: 25%;
         float: left;  
@@ -23,10 +24,8 @@ main {
    
     .table{
         background-color:$lila;
-        margin-left: -2%;
         
         
-       
         }    
     .fin{
         font-family: 'Aboreto', cursive;
@@ -34,7 +33,8 @@ main {
     }    
     .google{
         display: block;
-        margin: auto;
+        margin: auto;       
+        padding-bottom: 4%;
     }
 }
 footer{
