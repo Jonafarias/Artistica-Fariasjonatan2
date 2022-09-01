@@ -27,18 +27,22 @@ main{
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
         z-index: -1;
-        -webkit-filter:opacity(100%)   
+        -webkit-filter:opacity(80%)   
     }
     .descripcion{
         color: $negro;
         font-family: 'Great Vibes', cursive;
-        font-size: 30px;
-        text-align:left;    
+        font-size: 25px;
+        font-weight: bold;
+        text-align:center;    
         width: 70%;
-        padding: 4%;
-        background-color: $alice;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: aliceblue;       
         background-repeat: no-repeat;
         margin: 1em auto;
+        opacity: 0.8 ;
+        
        
     }
 }

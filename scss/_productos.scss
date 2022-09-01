@@ -18,36 +18,31 @@ main{
         font-size: 20px;
         text-align:center; 
         margin-top: 30px;        
-    }
-  
-    .color_prod{  
-        width: 50%;  
-        height: 40%;    
-        padding-right: 4%;
-        padding-top: 5%;
-        padding-bottom: 0%;
-         
+    }      
+    .fondo{
+        background-image: url(../images/fondo10.png); 
+        background-repeat: no-repeat; 
+       
     }
     .padding{
         padding: 1em 3px 30px 5px;
         color: $negro;
         font-family: 'Aboreto', cursive;
         font-weight: bolder;
-        background-color: $alice;
-        text-align: center;      
+        text-align: center;
+          
     }
 }
 footer{
-    background-color: $lila;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    background-color: $lila;    
     margin: auto;
-    padding-top: 30px;
-.final{
+    padding-top: 2px;
     font-family: 'Dancing Script', cursive;
     font-size: 20px; 
-    font-weight: bolder;    
-    background-color:$lila;
-}      
+    font-weight: bolder;        
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
 }
