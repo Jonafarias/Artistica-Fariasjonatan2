@@ -33,7 +33,7 @@ main .video {
 main .descripcion {
   color: #0e0b0d;
   font-family: 'Great Vibes', cursive;
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
   width: 70%;
   padding: 4%;
@@ -125,7 +125,11 @@ main .carru_taller {
   margin: auto;
   min-height: 300px;
   padding-top: 5%;
-  padding-bottom: 5%; }
+  padding-bottom: 1%;
+  background-image: url(../images/nature-3195612_640-removebg-preview.png);
+  background-position: left;
+  background-repeat: repeat-x;
+  background-size: auto; }
 
 .footer {
   background-color: #e4ccde;
@@ -202,6 +206,9 @@ main .h1, main h2, main h3 {
   margin-top: 2%;
   font-family: 'Aboreto', cursive;
   font-size: 20px; }
+
+main .botones {
+  padding-top: 2%; }
 
 main .table {
   background-color: #e4ccde; }
