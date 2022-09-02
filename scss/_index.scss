@@ -46,16 +46,21 @@ main{
        
     }
 }
-.footer{
-    background-color: map-get($estilos, color_1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-.final{
-    font-family: 'Dancing Script', cursive;
-    font-size: map-get($estilos, tfuente);
-    font-weight:  map-get($estilos, tfuente_1);    
-}      
+footer{
+    .footer_index{
+        background-color: map-get($estilos, color_1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        font-family: 'Dancing Script', cursive;
+        font-size: map-get($estilos, tfuente);
+        font-weight:  map-get($estilos, tfuente_1);
+        position: relative;
+        bottom: 0;
+        width: 100%; 
+    }
+      
+     
 }

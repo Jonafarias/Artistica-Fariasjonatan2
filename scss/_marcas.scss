@@ -35,20 +35,16 @@ main{
     }
 }
 footer{
-    width: 100%;
-    background-color: $lila;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-   
-.final{
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px; 
-    font-weight: bolder;    
-    background-color:$lila;
-    width: 100%;
-  
+    .footer_cont{
+        background-color: $lila;    
+        margin: auto;
+        padding-top: 2px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px; 
+        font-weight: bolder;        
+        position: relative;
+        bottom: 0;
+        width: 100%;
   
 }      
 }  

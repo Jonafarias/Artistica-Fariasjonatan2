@@ -44,17 +44,19 @@ main .descripcion {
   margin: 1em auto;
   opacity: 0.8; }
 
-.footer {
+footer .footer_index {
   background-color: #e4ccde;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: auto; }
-  .footer .final {
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    font-weight: bolder; }
+  margin: auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 0;
+  width: 100%; }
 
 header .logo {
   width: 25%;
@@ -84,14 +86,14 @@ main .padding {
   font-weight: bolder;
   text-align: center; }
 
-footer {
+footer .footer_prod {
   background-color: #e4ccde;
   margin: auto;
   padding-top: 2px;
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   font-weight: bolder;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%; }
 
@@ -129,7 +131,7 @@ main .carru_taller {
   background-repeat: repeat-x;
   background-size: auto; }
 
-footer {
+footer .footer_tal {
   background-color: #e4ccde;
   margin: auto;
   padding-top: 2px;
@@ -171,19 +173,16 @@ main .img_marcas {
   padding-bottom: 5%;
   background-image: url(../images/fondo4.jpg); }
 
-footer {
-  width: 100%;
+footer .footer_cont {
   background-color: #e4ccde;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: auto; }
-  footer .final {
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #e4ccde;
-    width: 100%; }
+  margin: auto;
+  padding-top: 2px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 0;
+  width: 100%; }
 
 header .logo {
   width: 25%;
@@ -218,19 +217,13 @@ main .google {
   margin: auto;
   padding-bottom: 4%; }
 
-footer {
-  width: 100%;
+footer .footer_cont {
   background-color: #e4ccde;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
   margin: auto;
-  padding-top: 30px;
-  animation: bounce;
-  animation-duration: 2s; }
-  footer .final {
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #e4ccde;
-    width: 100%; }
+  padding-top: 2px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 0;
+  width: 100%; }

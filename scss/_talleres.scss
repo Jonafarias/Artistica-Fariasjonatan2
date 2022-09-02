@@ -40,6 +40,7 @@ main{
     
     }
     footer{
+        .footer_tal{
         background-color: $lila;    
         margin: auto;
         padding-top: 2px;
@@ -49,7 +50,7 @@ main{
         position: fixed;
         bottom: 0;
         width: 100%;
-        
+    }
     }    
 
 
