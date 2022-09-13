@@ -12,7 +12,7 @@ header .color_index {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   font-weight: bolder;
-  text-align: center; }
+  text-align: left; }
 
 header .color_fondo {
   background-color: #e4ccde;
@@ -33,10 +33,10 @@ main .video {
 main .descripcion {
   color: #0e0b0d;
   font-family: 'Great Vibes', cursive;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  width: 70%;
+  width: 80%;
   padding-top: 2%;
   padding-bottom: 2%;
   background-color: aliceblue;
@@ -44,19 +44,29 @@ main .descripcion {
   margin: 1em auto;
   opacity: 0.8; }
 
-footer .footer_index {
+footer .redes {
   background-color: #e4ccde;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin: auto;
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-  font-weight: bolder;
   position: relative;
   bottom: 0;
   width: 100%; }
+
+footer .fin {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 header .logo {
   width: 25%;
@@ -77,7 +87,9 @@ main .seccion {
 
 main .fondo {
   background-image: url(../images/fondo10.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10%; }
 
 main .padding {
   padding: 1em 3px 30px 5px;
@@ -86,16 +98,29 @@ main .padding {
   font-weight: bolder;
   text-align: center; }
 
-footer .footer_prod {
+footer .redes {
   background-color: #e4ccde;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   margin: auto;
-  padding-top: 2px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-  font-weight: bolder;
   position: relative;
   bottom: 0;
   width: 100%; }
+
+footer .fin {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .header .logo {
   width: 25%;
@@ -131,16 +156,29 @@ main .carru_taller {
   background-repeat: repeat-x;
   background-size: auto; }
 
-footer .footer_tal {
+footer .redes {
   background-color: #e4ccde;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   margin: auto;
-  padding-top: 2px;
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+
+footer .fin {
+  background-color: #e4ccde;
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
   font-weight: bolder;
-  position: fixed;
+  text-align: center;
+  position: relative;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .header .logo {
   width: 25%;
@@ -173,16 +211,29 @@ main .img_marcas {
   padding-bottom: 5%;
   background-image: url(../images/fondo4.jpg); }
 
-footer .footer_cont {
+footer .redes {
   background-color: #e4ccde;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   margin: auto;
-  padding-top: 2px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-  font-weight: bolder;
   position: relative;
   bottom: 0;
   width: 100%; }
+
+footer .fin {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 header .logo {
   width: 25%;
@@ -217,13 +268,26 @@ main .google {
   margin: auto;
   padding-bottom: 4%; }
 
-footer .footer_cont {
+footer .redes {
   background-color: #e4ccde;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   margin: auto;
-  padding-top: 2px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 20px;
-  font-weight: bolder;
   position: relative;
   bottom: 0;
   width: 100%; }
+
+footer .fin {
+  background-color: #e4ccde;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }

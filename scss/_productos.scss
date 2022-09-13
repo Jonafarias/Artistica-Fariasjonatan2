@@ -22,6 +22,8 @@ main{
     .fondo{
         background-image: url(../images/fondo10.png); 
         background-repeat: no-repeat; 
+        background-position: center;
+        padding-top: 10%;
        
     }
     .padding{
@@ -34,17 +36,31 @@ main{
     }
 }
 footer{
-    .footer_prod{
-    background-color: $lila;    
-    margin: auto;
-    padding-top: 2px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px; 
-    font-weight: bolder;        
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    .redes{   
+        background-color: map-get($estilos, color_1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;  
+        position: relative;
+        bottom: 0;
+        width: 100%;            
+    }
+    .fin {    
+        background-color: map-get($estilos, color_1);
+        font-family: 'Dancing Script', cursive;
+        font-size: map-get($estilos, tfuente);
+        font-weight:  map-get($estilos, tfuente_1);
+        text-align: center;
+        position:relative;
+        bottom: 0;
+        width: 100%;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+             
+    }
     
 
 }

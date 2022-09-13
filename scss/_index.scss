@@ -8,7 +8,8 @@ header{
         font-family: 'Dancing Script', cursive;
         font-size: map-get($estilos, tfuente);
         font-weight: map-get($estilos, tfuente_1);  
-        text-align: center; 
+        text-align: left ; 
+    
     }
     .color_fondo{
         background-color: map-get($estilos, color_1);
@@ -32,35 +33,46 @@ main{
     .descripcion{
         color: $negro;
         font-family: 'Great Vibes', cursive;
-        font-size: 25px;
+        font-size: 30px;
         font-weight: bold;
         text-align:center;    
-        width: 70%;
+        width: 80%;
         padding-top: 2%;
         padding-bottom: 2%;
         background-color: aliceblue;       
         background-repeat: no-repeat;
         margin: 1em auto;
-        opacity: 0.8 ;
-        
-       
+        opacity: 0.8 ;       
     }
+   
 }
 footer{
-    .footer_index{
+    .redes{   
         background-color: map-get($estilos, color_1);
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin: auto;
+        margin: auto;  
+        position: relative;
+        bottom: 0;
+        width: 100%;            
+    }
+    .fin {    
+        background-color: map-get($estilos, color_1);
         font-family: 'Dancing Script', cursive;
         font-size: map-get($estilos, tfuente);
         font-weight:  map-get($estilos, tfuente_1);
-        position: relative;
+        text-align: center;
+        position:relative;
         bottom: 0;
-        width: 100%; 
+        width: 100%;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+             
+    }
+     
     }
       
      
-}
